@@ -285,7 +285,7 @@ class Dotcoin:
                     )
                     time.sleep(1)
 
-                    spinner_time = datetime.fromisoformat(user['spin_updated_at']).astimezone(wib)
+                    spinner_time = datetime.fromisoformat("2024-10-07T18:23:09.286213+00:00").astimezone(wib)
                     spinner_ready = (spinner_time + timedelta(hours=8)).strftime('%x %X %Z')
 
                     spin = self.spinner(token)
